@@ -1,5 +1,7 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_5;
 
+import java.util.Random;
+
 public class DogsHouse
 {
     private static Dog[] dogsArray = new Dog[0];
@@ -11,6 +13,7 @@ public class DogsHouse
                 new Dog("Арни",1),
                 new Dog("Тор",5)
         };
+        AddDog(dogsIncomingArray);
         AddDog(dogsIncomingArray);
 
         for (Dog dog: dogsArray) {
@@ -29,9 +32,9 @@ public class DogsHouse
             counter++;
         }
 
-        for (Dog newDog : newDogs)
+        for (Dog dogFromArray : newDogs)
         {
-            newDogsArray[counter] = newDog;
+            newDogsArray[counter] = dogFromArray;
             counter++;
         }
 

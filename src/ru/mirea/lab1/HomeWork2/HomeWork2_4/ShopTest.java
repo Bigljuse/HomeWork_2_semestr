@@ -22,5 +22,16 @@ public class ShopTest
         }
 
         System.out.println(String.format("Компьютеры в магазине базы данных: \n%s", shop.ToString()));
+
+
+        System.out.print("Введите название компьютера, который вы хотите найти: ");
+        inputedComputerName = scanner.next();
+
+        boolean computerFound = shop.FindComputer(inputedComputerName);
+
+        if(computerFound == true)
+            System.out.println("Компьютер есть в магазине");
+        else
+            System.out.println("Компьютера нету в магазине");
     }
 }

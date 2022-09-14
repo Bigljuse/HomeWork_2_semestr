@@ -37,14 +37,14 @@ public class Shop
         computersCount--;
     }
 
-    public Computer FindComputer(String computerName)
+    public Boolean FindComputer(String computerName)
     {
         for (Computer computer: computersArray)
         {
             if(computer.GetName() == computerName)
-                return computer;
+                return true;
         }
-        return null;
+        return false;
     }
 
     public int GetCurrentComputersCount()
