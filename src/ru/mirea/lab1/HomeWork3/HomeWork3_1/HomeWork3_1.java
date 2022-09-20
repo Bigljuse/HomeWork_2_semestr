@@ -1,5 +1,7 @@
 package ru.mirea.lab1.HomeWork3.HomeWork3_1;
 
+import ru.mirea.lab1.HomeWork3.HomeWork3_2.Circle;
+
 import java.util.Random;
 
 public class HomeWork3_1
@@ -11,6 +13,13 @@ public class HomeWork3_1
         GenerateVariant1(10);
         System.out.println();
         GenerateVariant2(10);
+        SortNumbers();
+        System.out.print ("\nСортировка: ");
+
+        for(int counter = 0; counter < numbers.length; counter++)
+        {
+            System.out.print(numbers[counter] +  " ");
+        }
     }
 
     private static void GenerateVariant1(int count)
@@ -31,6 +40,34 @@ public class HomeWork3_1
         {
             numbers[counter] = (float) Math.random();
             System.out.print(numbers[counter] +  " ");
+        }
+    }
+
+
+    public static void SortNumbers()
+    {
+        float temp1 = numbers[0];
+        int temp1Id = 0;
+        int sortedNumbers = 0;
+
+        while (sortedNumbers < numbers.length)
+        {
+            for (int counter = 0; counter < numbers.length - sortedNumbers; counter++) {
+                float circle = numbers[counter];
+
+                if (circle > temp1)
+                {
+                    temp1 = circle;
+                    temp1Id = counter;
+                }
+            }
+            int lastUnSortedNumbers = numbers.length - 1 - sortedNumbers;
+            numbers[temp1Id] = numbers[lastUnSortedNumbers];
+            numbers[lastUnSortedNumbers] = temp1;
+
+            temp1 = numbers[0];
+            temp1Id = 0;
+            sortedNumbers++;
         }
     }
 }
