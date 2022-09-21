@@ -11,10 +11,9 @@ public class HomeWork3_1
     public static void Start()
     {
         GenerateVariant1(10);
-        System.out.println();
         GenerateVariant2(10);
         SortNumbers();
-        System.out.print ("\nСортировка: ");
+        System.out.print ("Сортировка: ");
 
         for(int counter = 0; counter < numbers.length; counter++)
         {
@@ -31,6 +30,7 @@ public class HomeWork3_1
             numbers[counter] = random.nextFloat();
             System.out.print(numbers[counter] +  " ");
         }
+        System.out.println();
     }
 
     private static void GenerateVariant2(int count)
@@ -41,6 +41,7 @@ public class HomeWork3_1
             numbers[counter] = (float) Math.random();
             System.out.print(numbers[counter] +  " ");
         }
+        System.out.println();
     }
 
 

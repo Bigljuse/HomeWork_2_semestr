@@ -1,11 +1,10 @@
 package ru.mirea.lab1.HomeWork3.HomeWork3_4;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Numbers
+public class HomeWork3_4
 {
     static int[] numbers;
     static ArrayList<String> anotherArray;

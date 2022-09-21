@@ -38,6 +38,6 @@ public class Dog
 
     public String toString()
     {
-        return String.format("Собака: %s, Возраст: %s",tag, age);
+        return String.format("Собака: %s, Возраст: %s",tag, GetDogAgeInHumanAge());
     }
 }

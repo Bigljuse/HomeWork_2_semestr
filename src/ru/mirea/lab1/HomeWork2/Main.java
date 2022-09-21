@@ -1,5 +1,7 @@
 package ru.mirea.lab1.HomeWork2;
 
+import ru.mirea.lab1.HomeWork2.HomeWork2_1.TestAuthor;
+import ru.mirea.lab1.HomeWork2.HomeWork2_2.BallTest;
 import ru.mirea.lab1.HomeWork2.HomeWork2_3.*;
 import ru.mirea.lab1.HomeWork2.HomeWork2_4.ShopTest;
 import ru.mirea.lab1.HomeWork2.HomeWork2_5.DogsHouse;
@@ -16,13 +18,13 @@ public class Main
     {
         //TestAuthor.Start();
         //BallTest.Start();
-        //CircleTest.Start();
-        ShopTest.Start();
+        //CircleTest1.Start();
+       // ShopTest.Start();
         //DogsHouse.Start();
         //CircleTest.main(args);
         //BookshelfTest.Start();
         //StringConverter.Start();
-        //PokerTest.Start(5);
+        //PokerTest.Start(10);
         //HowManyWords.Start();
     }
 }

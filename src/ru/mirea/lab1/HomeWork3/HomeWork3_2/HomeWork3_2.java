@@ -1,8 +1,6 @@
 package ru.mirea.lab1.HomeWork3.HomeWork3_2;
 
-import ru.mirea.lab1.HomeWork2.HomeWork2_7.Book;
-
-public class Tester
+public class HomeWork3_2
 {
     static Circle[] circles;
     static int circlesCount = 0;
@@ -21,11 +19,18 @@ public class Tester
 
         for (int counter = 0; counter < circles.length; counter++)
         {
-            System.out.println("Круг "+ counter+": "+circles[counter].GetLength());
+            System.out.println("Круг "+ counter+": "+circles[counter].GetRadius());
         }
 
         System.out.println("max Cirlce: " + GetMaxCircle().GetRadius());
         System.out.println("min Cirlce: " + GetMinCircle().GetRadius());
+
+        SortCircles();
+
+        for (int counter = 0; counter < circles.length; counter++)
+        {
+            System.out.println("Круг "+ counter+": "+circles[counter].GetRadius());
+        }
     }
 
     public static Circle GetMinCircle()

@@ -2,7 +2,7 @@ package ru.mirea.lab1.HomeWork3.HomeWork3_3;
 
 import java.util.Random;
 
-public class Tester
+public class HomeWork3_3
 {
     public static int[] numbers;
 
