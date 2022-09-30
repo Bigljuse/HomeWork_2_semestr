@@ -1,10 +1,8 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_1;
 
-import ru.mirea.lab1.HomeWork2.HomeWork2_1.Author;
-
-public class TestAuthor
+public class Main
 {
-    public static void Start()
+    public static void main(String[] args)
     {
         Author author = new Author("Андрей", "lala@mail.ru", 'M');
         System.out.println(String.format("%s %s %s",author.GetName(), author.GetEmail(), author.GetGender()));

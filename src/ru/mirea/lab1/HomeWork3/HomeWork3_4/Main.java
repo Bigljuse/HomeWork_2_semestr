@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class HomeWork3_4
+public class Main
 {
     static int[] numbers;
     static ArrayList<String> anotherArray;
 
-    public static void Start()
+    public static void main(String[] args)
     {
         System.out.print("Введите значения: ");
         CorrectInput();

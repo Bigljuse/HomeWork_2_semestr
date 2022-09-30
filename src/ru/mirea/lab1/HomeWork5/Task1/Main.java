@@ -5,13 +5,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Task1_Window
+public class Main
 {
     private static JLabel jLabel1 = new JLabel();
     private static JLabel jLabel2 = new JLabel();
     private static JLabel jLabel3 = new JLabel();
 
-    public static void Show()
+    public static void main(String args[])
     {
         Game game = new Game();
 

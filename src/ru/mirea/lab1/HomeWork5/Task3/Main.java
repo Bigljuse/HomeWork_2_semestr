@@ -1,20 +1,16 @@
 package ru.mirea.lab1.HomeWork5.Task3;
 
-import ru.mirea.lab1.HomeWork5.Task2.Figure;
-
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.net.URL;
-import java.util.Random;
 
-public class Window
+public class Main
 {
-    public static void Show(String args[])
+    public static void main(String args[])
     {
-        Image bgImage= Toolkit.getDefaultToolkit().getImage(args[0]);
+        String[] strings = new String[1];
+        strings[0] = "C:\\Users\\Bigljuse\\Desktop\\Угорь.png";
+
+        Image bgImage= Toolkit.getDefaultToolkit().getImage(strings[0]);
         JLabel jLabel = new JLabel(new ImageIcon(bgImage));
 
         JPanel mainPanel = new JPanel();

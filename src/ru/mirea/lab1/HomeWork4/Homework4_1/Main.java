@@ -1,6 +1,6 @@
 package ru.mirea.lab1.HomeWork4.Homework4_1;
 
-public class Homework4_1 {
+public class Main {
     public static void main(String[] args)
     {
         for (Season season:Season.values())

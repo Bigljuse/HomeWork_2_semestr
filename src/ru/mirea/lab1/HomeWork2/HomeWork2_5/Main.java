@@ -1,12 +1,10 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_5;
 
-import java.util.Random;
-
-public class DogsHouse
+public class Main //DogHouse
 {
     private static Dog[] dogsArray = new Dog[0];
 
-    public static void Start()
+    public static void main(String[] args)
     {
         Dog[] dogsIncomingArray = {
                 new Dog("Дэк",3),

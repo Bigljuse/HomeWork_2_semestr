@@ -2,11 +2,11 @@ package ru.mirea.lab1.HomeWork3.HomeWork3_3;
 
 import java.util.Random;
 
-public class HomeWork3_3
+public class Main
 {
     public static int[] numbers;
 
-    public static void Start()
+    public static void main(String[] args)
     {
         GenerateRandomNumbers();
 

@@ -1,8 +1,8 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_2;
 
-public class BallTest
+public class Main
 {
-    public static void Start()
+    public static void main(String[] args)
     {
         Ball ball = new Ball(20,20);
         ball.SetXY(5,5);

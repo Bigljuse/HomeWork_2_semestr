@@ -1,9 +1,9 @@
 package ru.mirea.lab1.HomeWork3.Task1;
 
-public class HomeWork3_4_Task1
+public class Main
 {
 
-    public static void Start()
+    public static void main(String[] args)
     {
         double aDouble = Double.valueOf(3.14);
         aDouble = Double.parseDouble("3.14");

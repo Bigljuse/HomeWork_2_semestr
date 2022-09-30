@@ -1,8 +1,8 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_8;
 
-public class StringConverter
+public class Main
 {
-    public static void Start()
+    public static void main(String[] args)
     {
         String[] text = {"h","e","l","l","o", " ", "w","o","r","l","d"};
         System.out.println("Было: " + ToString(text));

@@ -1,6 +1,6 @@
 package ru.mirea.lab1.HomeWork4_1.Homework4_1_2;
 
-public class Tester {
+public class Main {
     public static void main(String[] args) {
 
         Phone phone=new Phone("89054557582","Xiaomi",450);

@@ -4,9 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-public class Task2_Window
+public class Main
 {
-    public static void Show()
+    public static void main(String[] args)
     {
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new FlowLayout());

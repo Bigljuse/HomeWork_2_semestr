@@ -1,14 +1,12 @@
 package ru.mirea.lab1.HomeWork3.HomeWork3_1;
 
-import ru.mirea.lab1.HomeWork3.HomeWork3_2.Circle;
-
 import java.util.Random;
 
-public class HomeWork3_1
+public class Main
 {
     private static float[] numbers;
 
-    public static void Start()
+    public static void main(String[] args)
     {
         GenerateVariant1(10);
         GenerateVariant2(10);

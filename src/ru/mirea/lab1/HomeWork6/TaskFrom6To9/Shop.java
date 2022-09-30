@@ -6,6 +6,6 @@ public class Shop implements Printable
 {
     public void print()
     {
-        System.out.print(String.format("Журнал: %s",  new Random().nextInt(10)));
+        System.out.print(String.format("Журнал под номером: %s\n",  new Random().nextInt(10)));
     }
 }

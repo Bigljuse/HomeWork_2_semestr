@@ -2,7 +2,7 @@ package ru.mirea.lab1.HomeWork6.Task10;
 
 import java.util.Scanner;
 
-public class ShopTest
+public class Main
 {
     public static void main(String args[])
     {

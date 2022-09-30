@@ -1,8 +1,8 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_7;
 
-public class BookshelfTest
+public class Main
 {
-    public static void Start()
+    public static void main(String[] args)
     {
         Book book1 = new Book("He", "English1", 1950, 500);
         Book book2 = new Book("She", "English2", 1951, 55);

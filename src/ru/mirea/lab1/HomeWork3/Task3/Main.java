@@ -2,11 +2,11 @@ package ru.mirea.lab1.HomeWork3.Task3;
 
 import java.util.Scanner;
 
-public class HomeWork3_4_Task3
+public class Main
 {
     private static Tovar[] tovars = new Tovar[3];
 
-    public static void Start()
+    public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
 

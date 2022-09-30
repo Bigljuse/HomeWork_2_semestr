@@ -7,6 +7,6 @@ public class Book implements Printable
 
     public void print()
     {
-        System.out.print(String.format("Книга: %s", new Random().nextInt(10)));
+        System.out.print(String.format("Книга с номером тома: %s\n", new Random().nextInt(10)));
     }
 }

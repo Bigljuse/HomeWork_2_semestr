@@ -1,8 +1,8 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_3;
 
-public class CircleTest1
+public class Main
 {
-    public static void Start()
+    public static void main(String[] args)
     {
         Circle circleArg1 = new Circle(new Point(10,10));
         Circle circleArg2 = new Circle(5,5);

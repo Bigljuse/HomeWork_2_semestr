@@ -1,10 +1,10 @@
 package ru.mirea.lab1.HomeWork3.Task4;
 
-public class HomeWork3_4_Task3
+public class Main
 {
     private static Employee[] employees;
 
-    public static void Start()
+    public static void main(String[] args)
     {
 
         employees = new Employee[]

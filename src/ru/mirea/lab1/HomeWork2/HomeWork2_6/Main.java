@@ -1,6 +1,6 @@
 package ru.mirea.lab1.HomeWork2.HomeWork2_6;
 
-public class CircleTest
+public class Main
 {
     public static void main(String[] args)
     {

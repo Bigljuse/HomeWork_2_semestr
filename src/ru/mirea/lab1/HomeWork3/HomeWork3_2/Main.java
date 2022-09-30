@@ -1,11 +1,11 @@
 package ru.mirea.lab1.HomeWork3.HomeWork3_2;
 
-public class HomeWork3_2
+public class Main
 {
     static Circle[] circles;
     static int circlesCount = 0;
 
-    public static void Start()
+    public static void main(String[] args)
     {
         Circle circle1 = new Circle();
         Circle circle2 = new Circle();
