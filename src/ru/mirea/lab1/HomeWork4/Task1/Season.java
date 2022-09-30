@@ -1,4 +1,4 @@
-package ru.mirea.lab1.HomeWork4.Homework4_1;
+package ru.mirea.lab1.HomeWork4.Task1;
 
 public enum Season
 {

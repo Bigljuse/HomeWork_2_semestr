@@ -1,7 +1,7 @@
-package ru.mirea.lab1.HomeWork4_1.Homework4_1_10;
+package ru.mirea.lab1.HomeWork4.Task4_1.Task10;
 
-public class Car extends Transport{
-    public Car(int speed, int fuel, int priceFuel, double cargoRate) {
+public class Plane extends Transport{
+    public Plane(int speed, int fuel, int priceFuel, double cargoRate) {
         super(speed, fuel, priceFuel, cargoRate);
     }
 
@@ -27,6 +27,6 @@ public class Car extends Transport{
 
     @Override
     public String toString() {
-        return "Car";
+        return "Plane";
     }
 }

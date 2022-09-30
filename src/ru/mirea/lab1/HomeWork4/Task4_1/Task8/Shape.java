@@ -1,4 +1,4 @@
-package ru.mirea.lab1.HomeWork4_1.Homework4_1_8;
+package ru.mirea.lab1.HomeWork4.Task4_1.Task8;
 
 public abstract class Shape {
     protected String color;

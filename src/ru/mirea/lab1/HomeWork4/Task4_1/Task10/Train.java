@@ -1,4 +1,4 @@
-package ru.mirea.lab1.HomeWork4_1.Homework4_1_10;
+package ru.mirea.lab1.HomeWork4.Task4_1.Task10;
 
 public class Train extends Transport{
     public Train(int speed, int fuel, int priceFuel, double cargoRate) {

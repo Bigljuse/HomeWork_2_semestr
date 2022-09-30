@@ -1,4 +1,4 @@
-package ru.mirea.lab1.HomeWork4_1.Homework4_1_2;
+package ru.mirea.lab1.HomeWork4.Task4_1.Task2;
 
 public class Phone {
     private String number;

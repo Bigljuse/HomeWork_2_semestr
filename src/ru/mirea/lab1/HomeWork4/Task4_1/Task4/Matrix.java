@@ -1,4 +1,4 @@
-package ru.mirea.lab1.HomeWork4_1.Homework4_1_4;
+package ru.mirea.lab1.HomeWork4.Task4_1.Task4;
 
 public class Matrix {
     private static  int[][] arr = new int[][]{
