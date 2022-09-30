@@ -1,10 +1,10 @@
-package ru.mirea.lab1.HomeWork2.HomeWork2_4;
+package ru.mirea.lab1.HomeWork6.Task10;
 
 import java.util.Scanner;
 
 public class ShopTest
 {
-    public static void Start()
+    public static void main(String args[])
     {
         System.out.print("Введите количество компьютеров: ");
         Scanner scanner = new Scanner(System.in);
@@ -15,9 +15,9 @@ public class ShopTest
         String inputedComputerName = "No pc name";
         while(shop.GetCurrentComputersCount() < shop.GetMaxComputersCount())
         {
-            System.out.print(String.format("Введите название компьютера под № %s: ", shop.GetCurrentComputersCount() + 1));
+            System.out.print(String.format("Введете название компьютера под № %s: ", shop.GetCurrentComputersCount() + 1));
             inputedComputerName = scanner.next();
-            shop.AddComputer(inputedComputerName);
+            shop.AddComputer(new Computer(inputedComputerName));
             System.out.println("Компьютер : " + inputedComputerName + " добавлен в магазин");
         }
 

@@ -3,7 +3,7 @@ package ru.mirea.lab1.HomeWork3.Task4;
 public class Employee
 {
     private String fullname = "no name";
-    private int salary = 0;
+    private float salary = 0;
 
     Employee(String name, int salaryAmount)
     {
@@ -11,7 +11,7 @@ public class Employee
         salary = salaryAmount;
     }
 
-    public int GetSalary() {
+    public float GetSalary() {
         return salary;
     }
 

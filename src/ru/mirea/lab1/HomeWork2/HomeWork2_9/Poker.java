@@ -74,7 +74,7 @@ public class Poker
 
     private ArrayList<Card> CreateCards(CardColor cardColor)
     {
-        ArrayList<Card> cards = new ArrayList<>();
+        ArrayList<Card> cards = new ArrayList<Card>();
 
         for (int counter = 0; counter < CardName.values().length; counter++)
         {

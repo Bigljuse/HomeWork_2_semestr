@@ -1,6 +1,6 @@
 package ru.mirea.lab1.HomeWork3.Task1;
 
-public class HomeWork3_Task1
+public class HomeWork3_4_Task1
 {
 
     public static void Start()

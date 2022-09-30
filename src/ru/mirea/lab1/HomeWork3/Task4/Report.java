@@ -8,7 +8,7 @@ public class Report
 
         for (Employee employee : employees)
         {
-            stringBuilder.append(String.format("Работник: %s  Зарплата: %s",employee.GetFullname(), employee.GetSalary()));
+            stringBuilder.append(String.format("Работник: %s  Зарплата: %20.3fp\n",employee.GetFullname(), employee.GetSalary()));
         }
         return stringBuilder.toString();
     }

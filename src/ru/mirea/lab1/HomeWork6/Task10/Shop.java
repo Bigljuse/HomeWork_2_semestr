@@ -1,4 +1,4 @@
-package ru.mirea.lab1.HomeWork2.HomeWork2_4;
+package ru.mirea.lab1.HomeWork6.Task10;
 
 public class Shop
 {
@@ -12,10 +12,10 @@ public class Shop
         computersArray = new Computer[computerCount];
     }
 
-    public void AddComputer(String computerName)
+    public void AddComputer(Computer computer)
     {
-        Computer newComputer = new Computer(computersCount + 1, computerName);
-        computersArray[computersCount] = newComputer;
+        computer.setId(computersCount);
+        computersArray[computersCount] = computer;
         computersCount++;
     }
 
@@ -27,7 +27,7 @@ public class Shop
 
         for (Computer computer: computersArray)
         {
-            if(computer.GetName() == computerName)
+            if(computer.getName() == computerName)
             {
                 computersCount--;
                 continue;
@@ -36,14 +36,13 @@ public class Shop
             computers[counter] = computer;
             counter++;
         }
-
     }
 
     public Boolean FindComputer(String computerName)
     {
         for (Computer computer: computersArray)
         {
-            if(computer.GetName().equals(computerName))
+            if(computer.getName().equals(computerName))
                 return true;
         }
         return false;
@@ -64,7 +63,12 @@ public class Shop
         StringBuffer computers = new StringBuffer();
         for (Computer computer : computersArray)
         {
-            computers.append(String.format("%s) %s\n",computer.GetId(),computer.GetName()));
+            computers.append(String.format("%s) Компьютер: %s Монитор: %s Процессор: %s Память: %s\n",
+                    computer.getId(),
+                    computer.getName(),
+                    computer.getMonitor().getName(),
+                    computer.getProcessor().getName(),
+                    computer.getMemory().getName()));
         }
 
         return computers.toString();

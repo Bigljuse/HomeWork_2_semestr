@@ -19,12 +19,12 @@ public class Main
         //TestAuthor.Start();
         //BallTest.Start();
         //CircleTest1.Start();
-       // ShopTest.Start();
+        //ShopTest.Start();
         //DogsHouse.Start();
         //CircleTest.main(args);
         //BookshelfTest.Start();
         //StringConverter.Start();
-        //PokerTest.Start(10);
+        //PokerTest.Start(2);
         //HowManyWords.Start();
     }
 }

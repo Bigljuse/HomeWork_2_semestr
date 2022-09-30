@@ -32,7 +32,7 @@ public class Player
         stringBuffer.append("Игрок: " + id+"\n");
         for (Card card: hand)
         {
-            stringBuffer.append("Масть: "+card.GetColor() +" Название: "+ card.GetName() + "\n");
+            stringBuffer.append(String.format("Масть: %s Название: %s \n",card.GetColor(),card.GetName()));
         }
         return stringBuffer.toString();
     }
