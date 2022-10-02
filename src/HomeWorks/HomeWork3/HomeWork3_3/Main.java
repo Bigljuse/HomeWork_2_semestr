@@ -8,6 +8,8 @@ public class Main
 
     public static void main(String[] args)
     {
+        System.out.println("Генерирую случайную последовательность...");
+
         GenerateRandomNumbers();
 
         for(int counter = 0; counter < numbers.length; counter++ )
@@ -15,7 +17,7 @@ public class Main
             System.out.print(numbers[counter] + " ");
         }
 
-        System.out.println("Является последовательностью? : " + IsSequence());
+        System.out.println("\nПроверяю, является-ли последовательностью: " + IsSequence());
     }
 
     private static void GenerateRandomNumbers()

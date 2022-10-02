@@ -8,10 +8,13 @@ public class Main
 
     public static void main(String[] args)
     {
+        System.out.print ("Генерация через Random: ");
         GenerateVariant1(10);
+        System.out.print ("Генерация через Math.random: ");
         GenerateVariant2(10);
+
         SortNumbers();
-        System.out.print ("Сортировка: ");
+        System.out.print ("Сортировка второго сгенерированного массива чисел: ");
 
         for(int counter = 0; counter < numbers.length; counter++)
         {

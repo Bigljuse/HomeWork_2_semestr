@@ -17,13 +17,17 @@ public class Main
         circles[2] = circle3;
         circles[3] = circle4;
 
+        System.out.println("Заданные кружки:");
+
         for (int counter = 0; counter < circles.length; counter++)
         {
             System.out.println("Круг "+ counter+": "+circles[counter].GetRadius());
         }
 
-        System.out.println("max Cirlce: " + GetMaxCircle().GetRadius());
+        System.out.println("\nmax Cirlce: " + GetMaxCircle().GetRadius());
         System.out.println("min Cirlce: " + GetMinCircle().GetRadius());
+
+        System.out.println("\nСортирую кружи...");
 
         SortCircles();
 

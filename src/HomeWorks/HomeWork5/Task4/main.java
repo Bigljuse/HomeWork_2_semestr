@@ -6,9 +6,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Window
+public class main
 {
-    public static void Show()
+    public static void main(String[] args)
     {
         JPanel container = new JPanel();
         CardLayout cardLayout = new CardLayout();
