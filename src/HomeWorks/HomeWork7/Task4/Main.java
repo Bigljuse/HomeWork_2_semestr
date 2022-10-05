@@ -6,7 +6,7 @@ public class Main
     {
         MathCalculable mathFunc = new MathFunc();
 
-        int radious = 10;
+        int radious = 2;
         int lengthOfCircle =  (int)(2 *radious * mathFunc.getPi());
 
         System.out.println(String.format("Длина круга: %s", lengthOfCircle));
